@@ -26,6 +26,10 @@
   align-items: center;
 
 }
+#backimgg{
+background-image: url(image\ 7.png);
+
+}
 
 .nav-bar {
   width: 1440px;
