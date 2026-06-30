@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(252, 251, 251);
+}
+
+
+.nav-home{
+    width: 1440px;
+    height: 850px;
+    background-color: black;
+}
+
+.nav-item{
+
+    background-color: black;
+}
+.nav-centre{
+    width: auto;
+    height: auto;
+}
+
+
+
+.nav-bar{
+width: 1440px;
+height: 80px;
+background-color:#0052B4;
+opacity: 100%;
+display: flex;
+}
+
+.nav-top{
+    display: flex;
+    gap: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+}
+.frames{
+    height: 44px;
+    display: flex;
+background-color:green ;
+justify-content:flex-end;
+}
+
+.nav-icon{
+    display: flex;
+    justify-content:flex-end;
+
+}
+.nav-element{
+    display: flex;
+}
+
+.nav-btn{
+    display: flex;
+    list-style: none;
+    width: 464px;
+    height: 24px;
+}
+
+.nav-link{
+    list-style: none;
+    color: rgb(12, 12, 12);
+    display: flex;
+    text-decoration: none;
+}
+.nav-link>li>a{
+    row-gap: 8px;
+}
+
+
+.hero{
+width: 1440px;
+height: 905px;
+}
+
+.polygon1
+.polygon2
+.polygon3{
+    width: 164px;
+    height: 164px;
+    opacity: 50%;
+    border-radius: 16px;
+    
+}
+
+.polygon1{
+    position: absolute;
+    left: 1193px;
+    top: 231px;
+}
+.polygon2{
+    position: absolute;
+    left: 1290px;
+    top: -116px;
+}
+.polygon3{
+    position: absolute;
+    left: 164px;
+    top: 164px;
+}
+
+
+
+
+
+.hero-container{
+    width: auto;
+    min-width: 1440px;
+    height: auto;
+    min-height: 905px;
+
+}
+.content{
+    width: 1280px;
+    height: 777px;
+    gap: 32;
+}
+.content2{
+    background-color: rgb(185, 92, 92);
+    display: flex;
+}
+
+.video>i{
+    width: 136px;
+    height: 136px;
+    position: relative;
+    x: 540px;
+    y: 192px;
+}
+.vidimg{
+    width: auto;
+    height: auto;
+}
+
+.vidimg>img{
+    width: 1216px;
+    height: 520px;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
