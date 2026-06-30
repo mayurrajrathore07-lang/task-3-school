@@ -7,7 +7,7 @@
 .nav-home {
   width: 1440px;
   height: 850px;
-  background-color: black;
+  background-color: rgb(13, 113, 180);
 }
 
 .nav-item {
@@ -17,6 +17,14 @@
 .nav-centre {
   width: auto;
   height: auto;
+}
+.triangle{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+
 }
 
 .nav-bar {
