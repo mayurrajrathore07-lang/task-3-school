@@ -204,7 +204,8 @@ body {
     opacity: 0.9;
 }
 
-/* ========== WHY US SECTION ========== */
+
+
 .why-us {
     width: 100%;
     background-color: #f5f5f5;
@@ -276,21 +277,6 @@ body {
     background-color: #003D8A;
 }
 
-/* Video Section */
-.why-us-video {
-    position: relative;
-    margin-bottom: 80px;
-    border-radius: 15px;
-    overflow: hidden;
-    height: 400px;
-}
-
-.why-us-video img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
 .play-button {
     position: absolute;
     top: 50%;
@@ -312,131 +298,4 @@ body {
 .play-button:hover {
     background-color: #ffffff;
     transform: translate(-50%, -50%) scale(1.1);
-}
-
-/* Why Us Footer */
-.why-us-footer {
-    background: linear-gradient(135deg, #0052B4 0%, #003D8A 100%);
-    padding: 60px;
-    border-radius: 15px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.section-title {
-    font-size: 14px;
-    margin-bottom: 15px;
-}
-
-.why-us-footer h3 {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-
-.frames {
-  height: 44px;
-  display: flex;
-  background-color:green ;
-  justify-content:flex-end;
-}
-
-.nav-icon {
-  display: flex;
-  justify-content:flex-end;
-}
-
-.nav-element {
-  display: flex;
-}
-
-.nav-btn {
-  display: flex;
-  list-style: none;
-  width: 464px;
-  height: 24px;
-}
-
-.nav-link {
-  list-style: none;
-  color: rgb(12, 12, 12);
-  display: flex;
-  text-decoration: none;
-}
-
-.nav-link>li>a {
-  row-gap: 8px;
-}
-
-.hero {
-  width: 1440px;
-  height: 905px;
-}
-
-.polygon1 .polygon2 .polygon3 {
-  width: 164px;
-  height: 164px;
-  opacity: 50%;
-  border-radius: 16px;
-}
-
-.polygon1 {
-  position: absolute;
-  left: 1193px;
-  top: 231px;
-}
-
-.polygon2 {
-  position: absolute;
-  left: 1290px;
-  top: -116px;
-}
-
-.polygon3 {
-  position: absolute;
-  left: 164px;
-  top: 164px;
-}
-
-.hero-container {
-  width: auto;
-  min-width: 1440px;
-  height: auto;
-  min-height: 905px;
-}
-
-.content {
-  width: 1280px;
-  height: 777px;
-  gap: 32;
-}
-
-.content2 {
-  background-color: rgb(14, 13, 13);
-  display: flex;
-  padding-top: 40px;
-  ;
-}
-
-.video>i {
-  width: 136px;
-  height: 136px;
-  position: relative;
-  x: 540px;
-  y: 192px;
-}
-
-.vidimg {
-  width: auto;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-} 
-
-.vidimg>img {
-  width: 1216px;
-  height: 520px;
-  border-radius: 24px;
-  justify-content: center;
-  align-items: center;
 }
