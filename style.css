@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 body {
@@ -277,6 +278,10 @@ body {
     background-color: #003D8A;
 }
 
+.video {
+    position: relative;
+}
+
 .play-button {
     position: absolute;
     top: 50%;
@@ -299,3 +304,127 @@ body {
     background-color: #ffffff;
     transform: translate(-50%, -50%) scale(1.1);
 }
+
+.time-is-now {
+    background-color: #025686;
+    width: 100%;
+    min-height: 500px;
+    padding: 80px 20px;
+    color: #ffffff;
+}
+
+.time-is {
+    display: flex;
+    flex-direction: column;
+}
+
+.time{
+  text-align: center;
+}
+
+.time>h1{
+  font-weight: bold;
+font-size: 20px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.time>h2{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 53px;
+  letter-spacing: -2%;
+
+}
+
+
+.now{
+   width: 1240px;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: space-around;
+  gap: 43px;
+  padding-left: 70px;
+  margin-top: 64px;
+}
+
+.Education h2,
+.individual h2,
+.international h2 {
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.education p,
+.individual p,
+.international p {
+  line-height: 25px;
+  font-size: 16px;
+}
+  
+
+.events {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.what {
+  font-family: sans-serif;
+  margin-bottom: 32px;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: repeat(2, minmax(220px, auto));
+  gap: 24px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 22px;
+  color: #003d8a;
+}
+
+.card p {
+  margin: 0;
+  color: #333333;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+.left {
+  grid-row: span 2;
+}
+
+.card2,
+.card3 {
+  align-self: stretch;
+  width: 320px;
+  height: 200px;
+}
+
+
