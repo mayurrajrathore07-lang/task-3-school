@@ -534,7 +534,7 @@ font-size: 20px;
 }
 
 .title,
-.part span:first-child {
+.part > span:first-child {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -561,6 +561,7 @@ font-size: 20px;
   gap: 32px;
   max-width: 1200px;
   margin: 0 auto 40px;
+  height: 670px;
 }
 
 .col h3 {
@@ -583,25 +584,26 @@ font-size: 20px;
   color: #ffffff;
 }
 
-.col p:first-of-type {
-  font-weight: 700;
-  margin-top: 4px;
-}
+
 
 .part {
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: 30px;
   margin-top: 10px;
+  font-weight: 700;
+  margin-top: 4px;
 }
+
 
 .end {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #7d94a2;
+  color: #1D2939;
   font-size: 13px;
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
+  min-height: 130px;
 }
 
 .brand {
