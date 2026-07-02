@@ -359,7 +359,6 @@ font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
 }
-.education p,
 .individual p,
 .international p {
   line-height: 25px;
@@ -367,171 +366,24 @@ font-size: 20px;
 }
   
 
-.events {
-  width: 100%;
-  max-width: 1140px;
-  height: auto;
-  max-height: 730px;
-  margin: 0 auto;
-  padding: 80px 40px 120px;
-  margin-left: 45px;
-}
 
-.events-inner {
-  position: relative;
-}
-
-.events-tag {
-  display: inline-block;
-  margin-bottom: 18px;
-  color: #0052B4;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-size: 13px;
-}
-
-.what {
-  margin-bottom: 44px;
-}
-
-.what h1 {
-  font-size: 52px;
-  line-height: 1.05;
-  margin: 0 0 18px;
-  color: #0f172a;
-}
-
-.what p {
-  margin: 0;
-  color: #475569;
-  font-size: 16px;
-  line-height: 1.8;
-}
-
-.event-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1.8fr 1fr;
-  grid-template-rows: repeat(2, auto);
-  gap: 5px;
-  align-items: start;
-  margin-left: -50px;
-}
-
-
-.card {
-  position: relative;
-  z-index: 1;
-  background-color: #f7f4f4;
-  border-radius: 32px;
-  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.08);
-}
-
-.card-image img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.left {
-  grid-row: span 2;
-}
-
-.left
- .card-image img {
-  height: 300px;
-  margin-top: 25px;
-  object-fit: contain;
-}
-
-.card-text {
-  padding: 32px;
-}
-
-.card-date {
-  margin: 0 0 6px;
-  color: #0052B4;
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.card h4 {
-  margin: 0 0 16px;
-  font-size: 28px;
-  line-height: 1.15;
-  color: #0f172a;
-}
-
-.card p {
-  margin-right:-80px;
-  color: #475569;
-  line-height: 1.8;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.small-card
- .card-info {
-  display: flex;
-  gap: 8px;
-  align-items: flex-start;
-  padding: 25px;
-}
-
-.small-card
- .card-image img {
-  min-height: 210px;
-  min-width: 280px;
-  border-radius: 16px;
-  margin-left: -50px;
-}
-
-.small-card
- .card-text {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.footer-nav{
-  margin-top: 130px;
-  width: auto;
-  height: auto;
-  max-width: 1440px;
-  max-height: 1000px;
-}
-
-.footer-container{
-  height: 186px;
-  background-color: #002438;
-
-}
-.footer-container>h1{
-  font-size: 30px;
-  padding-top: 10px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
-}
 
 .foot {
   background-color: #071920;
   color: #f3f5f8;
   padding: 60px 40px 30px;
+  margin-top: 60px;
 }
 
-.top,
-.part {
-  display: flex;
+.top{
+   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   margin-bottom: 40px;
 }
+
+
 
 .title,
 .part > span:first-child {
@@ -547,11 +399,11 @@ font-size: 20px;
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  max-width: 980px;
+  max-width: 1240px;
 }
 
 .list span {
-  font-size: 14px;
+  font-size: 18px;
   color: #d8e3eb;
 }
 
@@ -561,7 +413,8 @@ font-size: 20px;
   gap: 32px;
   max-width: 1200px;
   margin: 0 auto 40px;
-  height: 670px;
+  height: 500px;
+  margin-top: 20px;
 }
 
 .col h3 {
@@ -569,19 +422,30 @@ font-size: 20px;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
+  padding-top: 20px;
 }
 
-.col p,
+.col p{
+  margin-bottom: 10px;
+  color: #c8d7e0;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
 .col a {
   margin-bottom: 10px;
   color: #c8d7e0;
   font-size: 14px;
   line-height: 1.8;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .col a:hover {
   color: #ffffff;
+  
 }
 
 
@@ -592,23 +456,40 @@ font-size: 20px;
   margin-top: 10px;
   font-weight: 700;
   margin-top: 4px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
 }
 
+
+
+
+.list{
+  gap: 120px;
+  
+}
 
 .end {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #1D2939;
+  color: #e6e8eb;
   font-size: 13px;
   padding-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   min-height: 130px;
+  font-size: large;
+  
 }
 
 .brand {
   color: #ffffff;
   font-weight: 700;
+  font-size: x-large;
+  color: yellow;
 }
 
 
