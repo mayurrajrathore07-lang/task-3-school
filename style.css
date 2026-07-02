@@ -10,7 +10,6 @@ body {
     background-color: #ffffff;
 }
 
-/* ========== HOME SECTION ========== */
 .home {
     width: 100%;
     background: linear-gradient(135deg, #0052B4 0%, #003D8A 100%);
@@ -20,7 +19,7 @@ body {
     overflow: hidden;
 }
 
-/* Navigation Bar */
+
 .navbar {
     width: 100%;
     height: 80px;
@@ -96,7 +95,6 @@ body {
     font-size: 14px;
 }
 
-/* Home Content */
 .home-content {
     display: flex;
     justify-content: center;
@@ -170,7 +168,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Features Section */
+
 .features {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -216,16 +214,20 @@ body {
 .why-us-container {
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
-.why-us-images {
-    margin-bottom: 60px;
+.why-us-images {          
+margin-top: -80px;
+    margin-bottom: 30px;
+
 }
 
 .image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    gap: 30px;
+    
 }
 
 .image-grid img {
@@ -233,11 +235,14 @@ body {
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
+
 }
 
-/* Why Us Content */
 .why-us-content {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 60px;
+    padding-top: 30px;
 }
 
 .why-us-tag {
@@ -279,30 +284,19 @@ body {
 }
 
 .video {
+    width: 700px;
+    height: 300px;
     position: relative;
+    margin: 0 auto;
+
 }
 
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80px;
-    height: 80px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 32px;
-    color: #0052B4;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.play-button:hover {
-    background-color: #ffffff;
-    transform: translate(-50%, -50%) scale(1.1);
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .time-is-now {
@@ -364,15 +358,116 @@ font-size: 20px;
   line-height: 25px;
   font-size: 16px;
 }
-  
+
+.container {
+    width: min(90%, 1200px);
+    margin: auto;
+}
+
+.event {
+    padding: 100px 0;
+    margin-bottom: -60px;
+}
+
+.event-heading span {
+    color: #0066b3;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.event-heading h2 {
+    font-size: 54px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.event-heading p {
+    font-size: 22px;
+    color: #5c667a;
+    margin-bottom: 60px;
+}
+
+.event-wrapper {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 35px;
+}
+
+
+.event-left .event-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.event-content {
+    margin-top: 25px;
+}
+
+.date {
+    color: #005fa3;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.event-content h3 {
+    font-size: 40px;
+    margin: 12px 0;
+}
+
+.event-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4d5666;
+}
+
+.event-right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.event-card {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.card-image {
+    flex: 0 0 320px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-content h3 {
+    font-size: 32px;
+    margin: 12px 0;
+}
+
+.card-content p {
+    color: #4d5666;
+    line-height: 1.7;
+    font-size: 15px;
+}
 
 
 
 .foot {
-  background-color: #071920;
+  background-color: #1D2939;
   color: #f3f5f8;
   padding: 60px 40px 30px;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .top{
@@ -381,11 +476,28 @@ font-size: 20px;
   align-items: center;
   gap: 16px;
   margin-bottom: 40px;
+  width: 100%;
+  height: 160px;
+  background-color: #002438;
+  margin-top: -60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  border-color: white;
+  border-width: 5px;
+
 }
 
 
 
-.title,
+.title{
+   font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #9ab8ca;
+  padding-top: -50px;
+  margin-bottom: 20px;
+}
 .part > span:first-child {
   font-size: 18px;
   font-weight: 700;
@@ -491,6 +603,8 @@ font-size: 20px;
   font-size: x-large;
   color: yellow;
 }
+
+.video
 
 
 
