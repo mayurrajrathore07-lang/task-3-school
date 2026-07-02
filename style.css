@@ -623,6 +623,9 @@ font-size: 20px;
         gap: 12px 16px;
     
     }
+    .image-grid .delete{
+        display: none;
+    }
 
     .nav-buttons {
         width: 100%;
