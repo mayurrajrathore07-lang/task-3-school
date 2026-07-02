@@ -606,10 +606,13 @@ font-size: 20px;
 
 @media (max-width: 768px) {
     .navbar {
-        height: auto;
+        height: 180px;
         padding: 16px 20px;
         flex-wrap: wrap;
         gap: 12px;
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .nav-menu {
@@ -618,6 +621,7 @@ font-size: 20px;
         justify-content: center;
         flex-wrap: wrap;
         gap: 12px 16px;
+    
     }
 
     .nav-buttons {
