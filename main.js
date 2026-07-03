@@ -24,7 +24,7 @@ if (langButton) {
 const searchButton = document.querySelector('.btn-search');
 if (searchButton) {
   searchButton.addEventListener('click', () => {
-    alert('search feature is coming soon');
+    alert('sorry');
   });
 }
 
