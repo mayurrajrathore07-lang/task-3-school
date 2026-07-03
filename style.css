@@ -307,7 +307,13 @@ margin-top: -80px;
     min-height: 500px;
     padding: 80px 20px;
     color: #ffffff;
+
+    background-image: url("Polygon\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position:left bottom;
+    background-size: 60px;
 }
+
 
 .time-is {
     display: flex;
