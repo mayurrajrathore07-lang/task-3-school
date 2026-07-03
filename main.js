@@ -20,6 +20,7 @@ if (langButton) {
 }
 
 
+
 const searchButton = document.querySelector('.btn-search');
 if (searchButton) {
   searchButton.addEventListener('click', () => {
@@ -36,10 +37,3 @@ window.addEventListener('scroll', () => {
     navbar.style.backgroundColor = '#003D8A';
   }
 });
-
-const searchButton = document.querySelector('.btn-search');
-if(searchButton){
-  searchButton.addEventListener('click',()=>{
-    alert('search feature will coming soon')
-});
-}
