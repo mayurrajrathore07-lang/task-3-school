@@ -15,7 +15,7 @@ const langButton = document.querySelector('.btn-lang');
 if (langButton) {
   langButton.addEventListener('click', () => {
     const current = langButton.textContent.trim().toLowerCase();
-    langButton.textContent = current.includes('eng') ? 'eng';
+    langButton.textContent = current.includes('eng') ? 'hindi': 'eng';
   });
 }
 
@@ -23,10 +23,9 @@ if (langButton) {
 const searchButton = document.querySelector('.btn-search');
 if (searchButton) {
   searchButton.addEventListener('click', () => {
-    alert('Search feature is coming soon!');
+    alert('search feature is coming soon');
   });
 }
-
 
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar');
@@ -37,3 +36,10 @@ window.addEventListener('scroll', () => {
     navbar.style.backgroundColor = '#003D8A';
   }
 });
+
+const searchButton = document.querySelector('.btn-search');
+if(searchButton){
+  searchButton.addEventListener('click',()=>{
+    alert('search feature will coming soon')
+});
+}
