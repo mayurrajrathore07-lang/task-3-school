@@ -15,7 +15,7 @@ const langButton = document.querySelector('.btn-lang');
 if (langButton) {
   langButton.addEventListener('click', () => {
     const current = langButton.textContent.trim().toLowerCase();
-    langButton.textContent = current.includes('eng') ? 'hindi' : 'eng';
+    langButton.textContent = current.includes('lang') ? 'hindi' : 'eng';
   });
 }
 
