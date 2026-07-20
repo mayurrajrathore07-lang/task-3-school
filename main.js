@@ -32,7 +32,7 @@ window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.navbar');
   if (!navbar) return;
   if (window.scrollY > 20) {
-    navbar.style.backgroundColor = '#002b65';
+    navbar.style.backgroundColor = '#002b65';.
   } else {
     navbar.style.backgroundColor = '#003D8A';
   }
